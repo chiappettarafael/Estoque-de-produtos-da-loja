@@ -1,0 +1,44 @@
+body {
+    background:#ffffff;
+    color: #000000;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;}
+
+.all {
+    border-collapse: collapse;
+    font-size: 0.8em;
+    min-width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)}
+
+thead tr {
+    background-color: #fc90bd;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;}
+
+th, td {
+    padding: 15px 50px;}
+
+tbody tr {
+    background-color: #ffffff;}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f0f0f0;}
+
+.bloco{
+    width: 100%; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:#fc90bd; 
+    color: #ffffff;
+    margin-top: -10px;
+    margin-left:auto;
+    margin-right:auto;}
+
